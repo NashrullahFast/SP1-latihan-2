@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
     <script>
-        var nama = prompt("masukkan nama anda");
-        var nasrul = prompt("masukkan nilai anda");
-
-        if(nasrul >70 ){
-            alert(nama+" ,selamat anda lulus, dengan nilai, "+nasrul);
-        } else{
-            alert(nama+" ,Mohon maaf anda tidak lulus karena nilai anda "+nasrul)
-        } 
-
-
+        for(nama = 60; nama<=100; nama++){
+            if(nama%2==0){
+                console.log(nama+"genap");
+            }else{
+                console.log(nama+"ganjil");
+            }
+        }
         
+
     </script>
-    </body>
+</body>
+</html>
